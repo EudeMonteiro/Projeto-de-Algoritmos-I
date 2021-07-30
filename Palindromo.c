@@ -1,4 +1,4 @@
-#Autor: Eude Monteiro da Hora
+//Autor: Eude Monteiro da Hora
 
 #include <stdio.h>
 #include <string.h>
