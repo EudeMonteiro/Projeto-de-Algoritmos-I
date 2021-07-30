@@ -1,7 +1,7 @@
 #Autor: Eude Monteiro da Hora
 
-#include <stdio.h>
-#include <string.h>
+include <stdio.h>
+include <string.h>
 
 void Palindromo(char str[])
 {
