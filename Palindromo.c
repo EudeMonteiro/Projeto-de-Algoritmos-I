@@ -6,7 +6,7 @@
 void Palindromo(char str[])
 {
   int x = 0;
-	int y = strlen(str) - 1;
+  int y = strlen(str) - 1;
 
   while (y > x)
   {
