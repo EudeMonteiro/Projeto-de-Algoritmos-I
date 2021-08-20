@@ -68,5 +68,6 @@ int main(void) {
     } 
     
     printf("%s ", palavras[x]);
-  } 
+  }
+  return 0;
 }
