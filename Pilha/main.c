@@ -50,7 +50,7 @@ int main(void) {
   }
 
   
-  //Operações + Inversão das palavras utilizando o tipo Pilha
+  //Inversão das palavras utilizando o tipo Pilha
 
   TipoPilha* Pilha = (TipoPilha*) malloc(sizeof(TipoPilha));
   TipoItem *Item   = (TipoItem*)  malloc(sizeof(TipoItem));
