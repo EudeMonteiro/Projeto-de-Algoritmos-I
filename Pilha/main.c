@@ -52,8 +52,8 @@ int main(void) {
   
   //Inversão das palavras utilizando o tipo Pilha
 
-  TipoPilha* Pilha = (TipoPilha*) malloc(sizeof(TipoPilha));
-  TipoItem *Item   = (TipoItem*)  malloc(sizeof(TipoItem));
+  TipoPilha *Pilha = (TipoPilha*) malloc(sizeof(TipoPilha));
+  TipoItem  *Item  = (TipoItem*)  malloc(sizeof(TipoItem));
   
   printf("\nString Nova: " );
 
