@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include "pilha.h"
 
-
 int main(void) {
   
   //Divisão das palavras da frase
