@@ -178,7 +178,7 @@ void MaxMinValues(Tree *T){
 //Altura da árvore
 int treeHeight(Tree *T){
   if(T == NULL){
-    return -1;
+    return 0;
   }
 
   int leftHeight  = treeHeight(T -> left);
@@ -230,11 +230,11 @@ void printTree(struct Tree* T){ //printTree() chama currentLevel()
   for (i=1; i<=h+1; i++){       //conforme os níveis
   
     if(h <= 4) { //Checagem da altura da árvore para melhor visualização do diagrama
-      currentLevel(T, i, pow(2, h+2));      
+      currentLevel(T, i, pow(2, h+1));      
     }
     
     else {
-      currentLevel(T, i, pow(2, h+1));         
+      currentLevel(T, i, pow(2, h));         
     }
     
     printf("\n\n"); 
