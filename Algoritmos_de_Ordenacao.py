@@ -155,8 +155,13 @@ algorithms = {1 : "BubbleSort",
 
 # Opção para ordenação segundo um dos algoritmos
 while True: 
-  alg_option = int(input("\nAlgoritmo: "))
-  
+  while True:
+    try:
+      alg_option = int(input("\nAlgoritmo: "))
+
+    except ValueError:
+      print("Opção inválida inserida. Tente novamente.")
+
   if alg_option in algorithms:
     print(f"\nAlgoritmo selecionado: {algorithms[alg_option]}")
     break
