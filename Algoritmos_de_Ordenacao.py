@@ -176,7 +176,7 @@ while True:
 
 # Tipo do vetor
 print("\nEscolha o tipo do vetor a ser ordenado: \n\n1 - Vetor ordenado de \
-forma decrescente\n2 - Vetor ordenado de forma \033[1maleatória\033[0m")
+forma decrescente\n2 - Vetor ordenado de forma aleatória")
 
 
 #Dicionário de opções de tipos de vetor
