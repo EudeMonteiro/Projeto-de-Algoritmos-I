@@ -161,6 +161,9 @@ while True:
 
     except ValueError:
       print("Opção inválida inserida. Tente novamente.")
+      
+    else:
+      break
 
   if alg_option in algorithms:
     print(f"\nAlgoritmo selecionado: {algorithms[alg_option]}")
